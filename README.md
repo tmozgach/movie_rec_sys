@@ -1,10 +1,13 @@
 # Movie Recommendations Using the Deep Learning Approach 
 
+
+## Datastes:
 Dataset description (MovieLens Latest Datasets, small): https://grouplens.org/datasets/movielens/
 
 Dataset: http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 
 
+## Basic:
 Metrics to evaluate the performance: root mean square error (RMSE) and the mean absolute error (MAE)
 
 
