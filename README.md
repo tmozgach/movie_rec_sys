@@ -11,7 +11,7 @@ Dataset: http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 Metrics to evaluate the performance: root mean square error **(RMSE)** and the mean absolute error **(MAE)**
 
 
-__Possible baselines: __
+_ _ Possible baselines: _ _
 
 * traditional algorithms based on collaborative filtering (i.e., ItemCF, UserCF, TAG-CF), 
 
@@ -21,15 +21,15 @@ __Possible baselines: __
 
 
 # Task (14 Nov):
-__Tanya:__ Data visualization (bias, statictic, distribution). Topic: RNN using TAG. CEDAR: YES
+_ _Tanya:_ _ Data visualization (bias, statictic, distribution). Topic: RNN using TAG. CEDAR: YES
 
-__Abby:__ Implement a baseline: ?, Topic: DNN or NN using TAG. CEDAR: NO
+_ _Abby:_ _ Implement a baseline: ?, Topic: DNN or NN using TAG. CEDAR: NO
 
-__KurAi Ryou:__ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
+_ _KurAi Ryou:_ _ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
 
-__Dawn Luo:__ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
-
-__Zhang MoHan:__ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
+_ _Dawn Luo:_ _ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
+ 
+_ _Zhang MoHan:_ _ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
 
 
 
