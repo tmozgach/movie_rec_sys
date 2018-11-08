@@ -11,7 +11,7 @@ Dataset: http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 Metrics to evaluate the performance: root mean square error **(RMSE)** and the mean absolute error **(MAE)**
 
 
-_ _ Possible baselines: _ _
+_ Possible baselines: _
 
 * traditional algorithms based on collaborative filtering (i.e., ItemCF, UserCF, TAG-CF), 
 
