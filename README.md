@@ -11,25 +11,25 @@ Dataset: http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 Metrics to evaluate the performance: root mean square error **(RMSE)** and the mean absolute error **(MAE)**
 
 
-_ Possible baselines: _
+*Possible baselines:*
 
-* traditional algorithms based on collaborative filtering (i.e., ItemCF, UserCF, TAG-CF), 
+1) traditional algorithms based on collaborative filtering (i.e., ItemCF, UserCF, TAG-CF), 
 
-* the state-of-the-art models for rating prediction (i.e., BiasedMF and I-AutoRec), and
+2) the state-of-the-art models for rating prediction (i.e., BiasedMF and I-AutoRec), and
 
-* tag-aware recommender based on deep learning (i.e., DNN and BOW-TRSDL).
+3) tag-aware recommender based on deep learning (i.e., DNN and BOW-TRSDL).
 
 
 # Task (14 Nov):
-_ _Tanya:_ _ Data visualization (bias, statictic, distribution). Topic: RNN using TAG. CEDAR: YES
+_Tanya:_ Data visualization (bias, statictic, distribution). Topic: RNN using TAG. CEDAR: YES
 
-_ _Abby:_ _ Implement a baseline: ?, Topic: DNN or NN using TAG. CEDAR: NO
+_Abby:_ Implement a baseline: ?, Topic: DNN or NN using TAG. CEDAR: NO
 
-_ _KurAi Ryou:_ _ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
+_KurAi Ryou:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
 
-_ _Dawn Luo:_ _ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
+_Dawn Luo:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
  
-_ _Zhang MoHan:_ _ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
+_Zhang MoHan:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
 
 
 
