@@ -27,8 +27,8 @@ _Abby:_ Implement a baseline: ?, Topic: DNN or NN using TAG. CEDAR: NO
 
 _KurAi Ryou:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
 
-_Dawn Luo:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
- 
+_Dawn Luo:_ Implement a baseline: Youtube model, Topic: NN (without tag). CEDAR: NO
+
 _Zhang MoHan:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
 
 
