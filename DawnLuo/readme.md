@@ -18,7 +18,7 @@ Tested with tensorflow 1.7.0 (No try on the new version 1.12.0)
 
 > **Problem**
 
-Training dose not converge, so it fails. -_-||
+It seems training dose not converge, so it fails. -_-||
 
 > May due to
 
