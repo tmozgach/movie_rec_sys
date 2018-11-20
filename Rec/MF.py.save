@@ -1,0 +1,62 @@
+import torch
+from torch import nn,optim
+from torch.utils.data import Dataset, DataLoader, TensorDataset
+import tqdm
+import pandas as pd
+from sklearn import model_selection
+
+class MatrixFactorization(nn.Module):
+	def __init__(self,max_user,max_item,k=20):
+		super().__init__()
+		self.max_user=max_user
+		self.max_item=max_item
+		self.user_emb=nn.Embedding(max_user,k,0)
+		#self.
+		self.item_emb=nn.Embedding(max_item,k,0)
+		
+	def forward(self,x):
+		user_idx=x[:,0]
+		item_idx=x[:,1]
+		user_feature=self.user_emb(user_idx)
+		item_feature=self.item_emb(item_idx)
+
+		out=torch.sum(user_feature*item_feature,1)
+		out-nn.functional.sigmoid(out)*5
+		return out
+
+def eval_net
+
+df=pd.read_csv("ml-latest-small/ratings.csv")
+
+print("dataframe keys: ",df.keys())
+X=df[["userId","movieId"]].values
+print(X.shape)
+Y=df[["rating"]].values
+print(Y.shape)
+
+train_X,test_X,train_Y,test_Y=model_selection.train_test_split(X,Y,test_size=0.1)
+
+print("Type of our training and testing variables are",type(train_X),type(test_X),type(train_Y),type(test_Y))
+
+train_dataset=TensorDataset(
+	torch.tensor(train_X,dtype=torch.int64),torch.tensor(train_Y,dtype=torch.float32))
+
+#print(train_dataset.shape)
+print(type(train_dataset))
+
+test_dataset=TensorDataset(
+	torch.tensor(test_X,dtype=torch.int64),torch.tensor(test_Y,dtype=torch.float32)
+)
+
+train_loader=DataLoader(train_dataset,batch_size=1024,num_workers=4,shuffle=True)
+test_loader=DataLoader(test_dataset,batch_size=1024,num_workers=4)
+
+print("type of X",type(X))
+max_user,max_item = X.max(0)
+
+print("max_user: ",max_user,"max item: ",max_item)
+
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+net=MatrixFactorization(max_user+1,max_item+1)
+net=net.to(device)
