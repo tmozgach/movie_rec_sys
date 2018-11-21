@@ -1,5 +1,9 @@
 ## Youtube Recommendation Model
 
+> Data
+
+http://files.grouplens.org/datasets/movielens/ml-1m.zip
+
 > Description
 
 Treat each movie as a class and change recommendation to classification problem. Model will give out probability for each movie and choose top-K out. Then see how many of the top-K hit the test label.
