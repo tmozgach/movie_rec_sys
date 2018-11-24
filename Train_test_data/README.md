@@ -2,7 +2,7 @@
 
 u.data is copy of rating.dat
 
-To split it 80% -20%, run:
+To split it 80%/20%, run:
 
 ./mku.sh
 
