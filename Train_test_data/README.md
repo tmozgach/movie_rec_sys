@@ -1,6 +1,6 @@
 # Data Preparation
 
-- u.data is copy of rating.dat
+u.data is copy of rating.dat
 
 To split it 80% -20%, run:
 ./mku.sh
