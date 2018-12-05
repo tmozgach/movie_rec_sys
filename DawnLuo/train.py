@@ -101,6 +101,7 @@ def test():
         y_pred = []
         for row_x, row_out, row_y, row_y_train, y_number in zip(x, out_score, y, y_train, y_count_total):
             # set the training labels' prob as 0
+            tmmmmmp = 0
             for col in row_x:
                 row_out[int(col)] = 0
 
@@ -127,13 +128,17 @@ def test():
             # print("predict", top_k)
             # print("real_y",  np.where(row_y == 1))
             # print("real_x", row_x)
+            # print("index",top_k)
             for index in top_k:
                 if(row_y[index] == 1):
                     hit += 1
+                    tmmmmmp +=1
             rec_count += k
             test_count += y_number
+            #print("tmmmmmp:", tmmmmmp)
     precision = hit / (1.0 * rec_count)
     recall = hit / (1.0 * test_count)
+    #print("hit: ", hit, "rec_count:", rec_count)
 
 
     y_true = np.array(y_true)
