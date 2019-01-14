@@ -7,30 +7,11 @@ Dataset description (MovieLens Latest Datasets, small): https://grouplens.org/da
 Dataset: http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 
 
-## Basic:
-Metrics to evaluate the performance: root mean square error **(RMSE)** and the mean absolute error **(MAE)**
+## Overview:
+Movie recommender systems are a crucial part of online streaming services, as they  effectively  help  users  find  videos  that  they  might  enjoy  watching.   Many deep-learning based recommendation systems have been proposed in recent years.
+In this report we investigate and compare two recommender systems that utilize deep learning. We compare the performance of these models using Precision and Hit Rate.  We also implement a few non-deep learning baseline models to compare with the more complex models.  All models are run and evaluated using the Movielens 1-Million Dataset.
 
-
-*Possible baselines:*
-
-1) traditional algorithms based on collaborative filtering (i.e., ItemCF, UserCF, TAG-CF), 
-
-2) the state-of-the-art models for rating prediction (i.e., BiasedMF and I-AutoRec), and
-
-3) tag-aware recommender based on deep learning (i.e., DNN and BOW-TRSDL).
-
-
-# Task (14 Nov):
-_Tanya:_ Data visualization (bias, statictic, distribution). Topic: RNN using TAG. CEDAR: YES
-
-_Abby:_ Implement a baseline: ?, Topic: DNN or NN using TAG. CEDAR: NO
-
-_KurAi Ryou:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
-
-_Dawn Luo:_ Implement a baseline: Youtube model, Topic: NN (without tag). CEDAR: NO
-
-_Zhang MoHan:_ Implement a baseline: ?, Topic: ? (without tag). CEDAR: NO
-
+__report.pdf__ describes all models in details.
 
 
 
